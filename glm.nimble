@@ -19,7 +19,7 @@ bin           = @["glm2json", "json2glm"]
 
 # Dependencies
 
-requires "nim 1.6.12", "cligen 1.6.0", "uuids 0.1.11", "nimpy 0.2.0"
+requires "nim 2.0.0", "cligen 1.6.0", "uuids 0.1.11", "nimpy 0.2.0"
 
 task release, "Clean and build release":
   when buildOS == "windows":
